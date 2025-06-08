@@ -1,12 +1,17 @@
 # RO3_ProgramKomnum_20.py
-Farrel Ahmad Lazuardi
-NRP : 5053241035
+## Kelompok R03 *Farrel Ahmad Lazuardi (5053241035)*
+- Nama Anggota:
+  - Ledwino Galih Wandanu (5053241017)
+  - Farrel Ahmad Lazuardi (5053241035)
+  - Handhika Putra Widyartono (5053241039)
+  - Ziyad Raziq Lahitidra Afey (5053241042)
+  - M. Alfaraldi Raihan (5053241043)
 
 ## 🧮 Newton-Raphson Modifikasi (Python)
 
-Program ini menyelesaikan akar persamaan nonlinear menggunakan **Metode Newton-Raphson Modifikasi**. Pendekatan ini digunakan untuk mencari akar dari fungsi:
+Program ini menyelesaikan akar persamaan nonlinear menggunakan *Metode Newton-Raphson Modifikasi*. Pendekatan ini digunakan untuk mencari akar dari fungsi:
 
-> **f(x) = x³ + 6x² – 19x – 84**
+> *f(x) = x³ + 6x² – 19x – 84*
 
 ---
 
@@ -20,11 +25,11 @@ xₙ₊₁ = xₙ - [f(xₙ) * f′(xₙ)] / [(f′(xₙ))² - f(xₙ) * f″(x�
 ---
 
 ## 📌 Informasi Input
-- Fungsi: `f(x) = x³ + 6x² – 19x – 84`
-- Turunan pertama: `f'(x) = 3x² + 12x – 19`
-- Turunan kedua: `f''(x) = 6x + 12`
-- Nilai awal (`x₀`): 1
-- Nilai sebenarnya (`x_true`): 4
+- Fungsi: f(x) = x³ + 6x² – 19x – 84
+- Turunan pertama: f'(x) = 3x² + 12x – 19
+- Turunan kedua: f''(x) = 6x + 12
+- Nilai awal (x₀): 1
+- Nilai sebenarnya (x_true): 4
 - Iterasi: Hingga ke-3
 
 ---
@@ -37,8 +42,8 @@ xₙ₊₁ = xₙ - [f(xₙ) * f′(xₙ)] / [(f′(xₙ))² - f(xₙ) * f″(x�
 |   2     |  3.6701 |   8.25   |   30.91  |
 |   3     |  4.0418 |   1.05   |    9.21  |
 
-- **Et (True Error)**: Selisih relatif terhadap nilai sebenarnya.
-- **Ea (Approximate Error)**: Galat relatif antar iterasi (akurasi lokal).
+- *Et (True Error)*: Selisih relatif terhadap nilai sebenarnya.
+- *Ea (Approximate Error)*: Galat relatif antar iterasi (akurasi lokal).
 
 ---
 
@@ -50,8 +55,3 @@ Iterasi | x_n | Et (%) | Ea (%)
 3 | 4.0418 | 1.05 | 9.21
 
 ---
-
-## 🔧 Cara Menjalankan
-Pastikan Python dan `numpy` telah terinstal. Lalu jalankan di terminal:
-```bash
-python RO3_ProgramKomnum_20.py
