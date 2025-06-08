@@ -1,6 +1,6 @@
 # RO3_ProgramKomnum_20.py
-Muhammad Alfaraldi Raihan
-NRP : 5053241043
+Farrel Ahmad Lazuardi
+NRP : 5053241035
 
 ## 🧮 Newton-Raphson Modifikasi (Python)
 
